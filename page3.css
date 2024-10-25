@@ -1,0 +1,83 @@
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5e5c8;
+    color: #333333;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+  
+  }
+  
+  .logo {
+    width: 300px;;
+    
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    font-size: large;
+  }
+  
+  header nav ul li a {
+    color: #1f9b80;
+    text-decoration: none;
+    font-family: initial;
+  
+}
+
+.destinations-content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.destinations-content h1 {
+    font-family: 'Merriweather', serif;
+    color: #333;
+    margin-top: 20px;
+}
+
+.destinations-content p {
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Destination Grid Layout */
+.destination-grid {
+    grid-template-columns: repeat(3,  1fr);
+    gap: 20px;
+    display: grid;
+}
+
+
+
+.destination-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.destination-card h2 {
+    font-size: 1.2em;
+    color: #444;
+    margin-top: 10px;
+}
+.destination-card {
+    background-color: #f8f8f8;
+    padding: 10px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(99, 15, 15, 0.1);
+    text-align: center;
+    max-width: 250px; 
+    margin: auto; 
+}
+
