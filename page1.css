@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #253e57;
+    background-color: #3c5d7e;
   }
   
   .logo {
@@ -46,7 +46,7 @@ body {
   
 }
   .start {
-    background-image: url(images/Image1.jpg); 
+    background-image: url(images/background.jpg); 
     background-size: cover;
     background-position: center;
     color: #380303;

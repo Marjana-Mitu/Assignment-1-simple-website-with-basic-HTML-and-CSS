@@ -61,6 +61,7 @@ img {
     background-color: #585e68; 
     padding: 20px 0;
     text-align: center;
+    font-family: initial;
 }
 
 .social-links a {
@@ -81,27 +82,28 @@ img {
     font-weight: bold;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
 header {
-    background-color: #758b99;
-    padding: 10px 20px;
-    color: rgb(11, 2, 54);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+    padding: 20px;
+    background-color: #3c5d7e;
+  }
+  
+  .logo {
+    width: 300px;;
+    
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+  }
+  
+  header nav ul li a {
+    color: #ebe5e5;
+    text-decoration: none;
+    font-family: initial;
+  }
+  

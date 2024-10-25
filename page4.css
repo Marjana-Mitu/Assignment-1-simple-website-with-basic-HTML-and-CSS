@@ -8,26 +8,30 @@ body {
 }
 
 .about-content {
-    padding: 20px;
+    padding: 10px;
     font-size: 25px;
     color: rgb(3, 75, 35);
 }
 
 .about-content h1 {
     font-family: 'Merriweather', serif;
-    font-size: 60px;
+    font-size: 50px;
+    margin: 30px;
 }
+.about-content h5 {
+    margin: 40px;
 
+}
 .about-content p {
     margin: 15px 0;
 
 
 }
 .style {
-    width:95% ;
+    width:90% ;
     border: 1px solid grey;
     border-radius: 8px;
-    margin: 10px; 
+    margin: 50px; 
     padding: 35px;
     text-align: justify;
     align-content: center;
@@ -39,38 +43,40 @@ ul {
 }
 
 .banner-image {
-    width: 100%; 
+    width: 90%; 
     height: auto; 
     max-height: 300px;
     object-fit: cover; 
-    border-radius: 8px; 
+    border-radius: 30px; 
     margin-bottom: 10px; 
+    margin-left: 90px;
 }
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
 header {
-    background-color: #5d6f7a;
-    padding: 10px 20px;
-    color: rgb(11, 2, 54);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+  
+  }
+  
+  .logo {
+    width: 300px;;
+    
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    font-size: large;
+  }
+  
+  header nav ul li a {
+    color: #1f9b80;
+    text-decoration: none;
+    font-family: initial;
+  
 }
-
 .image-gallery {
     display: flex;
     justify-content: space-between; 
